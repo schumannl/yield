@@ -5,7 +5,7 @@ main();
 /**
  * Main functionality
  */
-function main()
+function main() : void
 {
     $numberOfItems = 2000000;
 
@@ -87,7 +87,7 @@ function getMemoryUsage() : string
  * @param array $yieldResults
  * @param int $numberOfItems
  */
-function displayResults(array $arrayResults, array $yieldResults, int $numberOfItems) {
+function displayResults(array $arrayResults, array $yieldResults, int $numberOfItems) : void {
     $resultsText = <<<RESULTS
 Number of items used for testing: %s.
 
